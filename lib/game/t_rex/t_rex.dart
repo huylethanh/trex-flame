@@ -21,10 +21,8 @@ class TRex extends PositionComponent with HasGameRef<TRexGame> {
 
   // ref to children
   late final WaitingTRex idleDino = WaitingTRex(gameRef.spriteImage, config);
-  late final RunningTRex runningDino =
-      RunningTRex(gameRef.spriteImage, config);
-  late final JumpingTRex jumpingTRex =
-      JumpingTRex(gameRef.spriteImage, config);
+  late final RunningTRex runningDino = RunningTRex(gameRef.spriteImage, config);
+  late final JumpingTRex jumpingTRex = JumpingTRex(gameRef.spriteImage, config);
   late final SurprisedTRex surprisedTRex = SurprisedTRex(
     gameRef.spriteImage,
     config,
